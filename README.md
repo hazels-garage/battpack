@@ -1,6 +1,6 @@
 # BattPack 0.2
 
-![render](images/render.png) 
+![render](images/re-render.png) 
 
 A 'backpack' for the nice!nano to make wiring up a battery cleaner on boards without native support
 
