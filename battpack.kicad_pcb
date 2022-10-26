@@ -1,0 +1,628 @@
+
+            
+(kicad_pcb (version 20171130) (host pcbnew 5.1.6)
+
+  (page A3)
+  (title_block
+    (title battpack)
+    (rev v1.0.0)
+    (company Unknown)
+  )
+
+  (general
+    (thickness 1.6)
+  )
+
+  (layers
+    (0 F.Cu signal)
+    (31 B.Cu signal)
+    (32 B.Adhes user)
+    (33 F.Adhes user)
+    (34 B.Paste user)
+    (35 F.Paste user)
+    (36 B.SilkS user)
+    (37 F.SilkS user)
+    (38 B.Mask user)
+    (39 F.Mask user)
+    (40 Dwgs.User user)
+    (41 Cmts.User user)
+    (42 Eco1.User user)
+    (43 Eco2.User user)
+    (44 Edge.Cuts user)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
+    (48 B.Fab user)
+    (49 F.Fab user)
+  )
+
+  (setup
+    (last_trace_width 0.25)
+    (trace_clearance 0.2)
+    (zone_clearance 0.508)
+    (zone_45_only no)
+    (trace_min 0.2)
+    (via_size 0.8)
+    (via_drill 0.4)
+    (via_min_size 0.4)
+    (via_min_drill 0.3)
+    (uvia_size 0.3)
+    (uvia_drill 0.1)
+    (uvias_allowed no)
+    (uvia_min_size 0.2)
+    (uvia_min_drill 0.1)
+    (edge_width 0.05)
+    (segment_width 0.2)
+    (pcb_text_width 0.3)
+    (pcb_text_size 1.5 1.5)
+    (mod_edge_width 0.12)
+    (mod_text_size 1 1)
+    (mod_text_width 0.15)
+    (pad_size 1.524 1.524)
+    (pad_drill 0.762)
+    (pad_to_mask_clearance 0.05)
+    (aux_axis_origin 0 0)
+    (visible_elements FFFFFF7F)
+    (pcbplotparams
+      (layerselection 0x010fc_ffffffff)
+      (usegerberextensions false)
+      (usegerberattributes true)
+      (usegerberadvancedattributes true)
+      (creategerberjobfile true)
+      (excludeedgelayer true)
+      (linewidth 0.100000)
+      (plotframeref false)
+      (viasonmask false)
+      (mode 1)
+      (useauxorigin false)
+      (hpglpennumber 1)
+      (hpglpenspeed 20)
+      (hpglpendiameter 15.000000)
+      (psnegative false)
+      (psa4output false)
+      (plotreference true)
+      (plotvalue true)
+      (plotinvisibletext false)
+      (padsonsilk false)
+      (subtractmaskfromsilk false)
+      (outputformat 1)
+      (mirror false)
+      (drillshape 1)
+      (scaleselection 1)
+      (outputdirectory ""))
+  )
+
+            (net 0 "")
+(net 1 "RAW")
+(net 2 "BAT")
+(net 3 "GND")
+(net 4 "RST")
+(net 5 "VCC")
+(net 6 "F4")
+(net 7 "F5")
+(net 8 "F6")
+(net 9 "F7")
+(net 10 "B1")
+(net 11 "B3")
+(net 12 "B2")
+(net 13 "B6")
+(net 14 "D3")
+(net 15 "D2")
+(net 16 "D1")
+(net 17 "D0")
+(net 18 "D4")
+(net 19 "C6")
+(net 20 "D7")
+(net 21 "E6")
+(net 22 "B4")
+(net 23 "B5")
+(net 24 "B7")
+(net 25 "D5")
+(net 26 "C7")
+(net 27 "F1")
+(net 28 "F0")
+            
+  (net_class Default "This is the default net class."
+    (clearance 0.2)
+    (trace_width 0.25)
+    (via_dia 0.8)
+    (via_drill 0.4)
+    (uvia_dia 0.3)
+    (uvia_drill 0.1)
+    (add_net "")
+(add_net "RAW")
+(add_net "BAT")
+(add_net "GND")
+(add_net "RST")
+(add_net "VCC")
+(add_net "F4")
+(add_net "F5")
+(add_net "F6")
+(add_net "F7")
+(add_net "B1")
+(add_net "B3")
+(add_net "B2")
+(add_net "B6")
+(add_net "D3")
+(add_net "D2")
+(add_net "D1")
+(add_net "D0")
+(add_net "D4")
+(add_net "C6")
+(add_net "D7")
+(add_net "E6")
+(add_net "B4")
+(add_net "B5")
+(add_net "B7")
+(add_net "D5")
+(add_net "C7")
+(add_net "F1")
+(add_net "F0")
+  )
+
+            
+        
+        (module E73:SPDT_C128955 (layer F.Cu) (tstamp 5BF2CC3C)
+
+            (at 15.85 0 -90)
+            (attr smd)
+            
+            (fp_text reference "T1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            (fp_line (start 1.95 -1.35) (end -1.95 -1.35) (layer F.SilkS) (width 0.15))
+            (fp_line (start 0 -1.35) (end -3.3 -1.35) (layer F.SilkS) (width 0.15))
+            (fp_line (start -3.3 -1.35) (end -3.3 1.5) (layer F.SilkS) (width 0.15))
+            (fp_line (start -3.3 1.5) (end 3.3 1.5) (layer F.SilkS) (width 0.15))
+            (fp_line (start 3.3 1.5) (end 3.3 -1.35) (layer F.SilkS) (width 0.15))
+            (fp_line (start 0 -1.35) (end 3.3 -1.35) (layer F.SilkS) (width 0.15))
+            
+            
+            (fp_line (start -1.95 -3.85) (end 1.95 -3.85) (layer Dwgs.User) (width 0.15))
+            (fp_line (start 1.95 -3.85) (end 1.95 -1.35) (layer Dwgs.User) (width 0.15))
+            (fp_line (start -1.95 -1.35) (end -1.95 -3.85) (layer Dwgs.User) (width 0.15))
+            
+            
+            (pad "" np_thru_hole circle (at 1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask))
+            (pad "" np_thru_hole circle (at -1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask))
+
+            
+            (pad 1 smd rect (at 2.25 2.075 -90) (size 0.9 1.25) (layers F.Cu F.Paste F.Mask) (net 2 "BAT"))
+            (pad 2 smd rect (at -0.75 2.075 -90) (size 0.9 1.25) (layers F.Cu F.Paste F.Mask) (net 1 "RAW"))
+            (pad 3 smd rect (at -2.25 2.075 -90) (size 0.9 1.25) (layers F.Cu F.Paste F.Mask) )
+
+            
+            (pad "" smd rect (at 3.7 -1.1 -90) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
+            (pad "" smd rect (at 3.7 1.1 -90) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
+            (pad "" smd rect (at -3.7 1.1 -90) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
+            (pad "" smd rect (at -3.7 -1.1 -90) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
+
+            (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.wrl" (offset(xyz 0 0 0)) (scale(xyz 1 1 1)) (rotate(xyz 0 0 180)) ) 
+        )
+        
+        
+
+    
+        (module SMDPad (layer F.Cu) (tedit 5B24D78E)
+
+            (at 14.5 5.5 180)
+
+            
+            (fp_text reference "PAD1" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            (pad 1 smd rect (at 0 0 180) (size 2 1) (layers F.Cu F.Paste F.Mask) (net 2 "BAT"))
+(fp_text user + (at -2 0 180) (layer F.SilkS) (effects (font (size 0.8 0.8) (thickness 0.15)) ))
+            
+            
+        )
+    
+        
+
+    
+        (module SMDPad (layer F.Cu) (tedit 5B24D78E)
+
+            (at 14.5 -5.5 180)
+
+            
+            (fp_text reference "PAD2" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            (pad 1 smd rect (at 0 0 180) (size 2 1) (layers F.Cu F.Paste F.Mask) (net 3 "GND"))
+(fp_text user - (at -2 0 180) (layer F.SilkS) (effects (font (size 0.8 0.8) (thickness 0.15)) ))
+            
+            
+        )
+    
+        
+
+      (module VIA-0.6mm (layer F.Cu) (tedit 591DBFB0)
+      (at 13.5 -5.5 0)   
+      
+
+
+      
+      (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (zone_connect 2) (net 3 "GND"))
+      )
+    
+
+      (module VIA-0.6mm (layer F.Cu) (tedit 591DBFB0)
+      (at 13.1 0 0)   
+      
+
+
+      
+      (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (zone_connect 2) (net 1 "RAW"))
+      )
+    
+
+        
+        (module E73:SPDT_C128955 (layer F.Cu) (tstamp 5BF2CC3C)
+
+            (at -15.85 0 90)
+            (attr smd)
+            
+            (fp_text reference "T2" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            (fp_line (start 1.95 -1.35) (end -1.95 -1.35) (layer F.SilkS) (width 0.15))
+            (fp_line (start 0 -1.35) (end -3.3 -1.35) (layer F.SilkS) (width 0.15))
+            (fp_line (start -3.3 -1.35) (end -3.3 1.5) (layer F.SilkS) (width 0.15))
+            (fp_line (start -3.3 1.5) (end 3.3 1.5) (layer F.SilkS) (width 0.15))
+            (fp_line (start 3.3 1.5) (end 3.3 -1.35) (layer F.SilkS) (width 0.15))
+            (fp_line (start 0 -1.35) (end 3.3 -1.35) (layer F.SilkS) (width 0.15))
+            
+            
+            (fp_line (start -1.95 -3.85) (end 1.95 -3.85) (layer Dwgs.User) (width 0.15))
+            (fp_line (start 1.95 -3.85) (end 1.95 -1.35) (layer Dwgs.User) (width 0.15))
+            (fp_line (start -1.95 -1.35) (end -1.95 -3.85) (layer Dwgs.User) (width 0.15))
+            
+            
+            (pad "" np_thru_hole circle (at 1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask))
+            (pad "" np_thru_hole circle (at -1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask))
+
+            
+            (pad 1 smd rect (at 2.25 2.075 90) (size 0.9 1.25) (layers F.Cu F.Paste F.Mask) (net 2 "BAT"))
+            (pad 2 smd rect (at -0.75 2.075 90) (size 0.9 1.25) (layers F.Cu F.Paste F.Mask) (net 1 "RAW"))
+            (pad 3 smd rect (at -2.25 2.075 90) (size 0.9 1.25) (layers F.Cu F.Paste F.Mask) )
+
+            
+            (pad "" smd rect (at 3.7 -1.1 90) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
+            (pad "" smd rect (at 3.7 1.1 90) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
+            (pad "" smd rect (at -3.7 1.1 90) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
+            (pad "" smd rect (at -3.7 -1.1 90) (size 0.9 0.9) (layers F.Cu F.Paste F.Mask))
+
+            (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.wrl" (offset(xyz 0 0 0)) (scale(xyz 1 1 1)) (rotate(xyz 0 0 180)) ) 
+        )
+        
+        
+
+    
+        (module SMDPad (layer F.Cu) (tedit 5B24D78E)
+
+            (at -14.5 -5.5 360)
+
+            
+            (fp_text reference "PAD3" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            (pad 1 smd rect (at 0 0 360) (size 2 1) (layers F.Cu F.Paste F.Mask) (net 2 "BAT"))
+(fp_text user + (at -2 0 360) (layer F.SilkS) (effects (font (size 0.8 0.8) (thickness 0.15)) ))
+            
+            
+        )
+    
+        
+
+    
+        (module SMDPad (layer F.Cu) (tedit 5B24D78E)
+
+            (at -14.5 5.5 360)
+
+            
+            (fp_text reference "PAD4" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            (pad 1 smd rect (at 0 0 360) (size 2 1) (layers F.Cu F.Paste F.Mask) (net 3 "GND"))
+(fp_text user - (at -2 0 360) (layer F.SilkS) (effects (font (size 0.8 0.8) (thickness 0.15)) ))
+            
+            
+        )
+    
+        
+
+      (module VIA-0.6mm (layer F.Cu) (tedit 591DBFB0)
+      (at -13.5 5.5 180)   
+      
+
+
+      
+      (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (zone_connect 2) (net 3 "GND"))
+      )
+    
+
+      (module VIA-0.6mm (layer F.Cu) (tedit 591DBFB0)
+      (at -13.1 0 180)   
+      
+
+
+      
+      (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (zone_connect 2) (net 1 "RAW"))
+      )
+    
+
+        
+        (module E73:SPDT_C128955 (layer B.Cu) (tstamp 5BF2CC3C)
+
+            (at 15.85 0 -90)
+            (attr smd)
+            
+            (fp_text reference "T3" (at 0 0) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            (fp_line (start 1.95 -1.35) (end -1.95 -1.35) (layer B.SilkS) (width 0.15))
+            (fp_line (start 0 -1.35) (end -3.3 -1.35) (layer B.SilkS) (width 0.15))
+            (fp_line (start -3.3 -1.35) (end -3.3 1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -3.3 1.5) (end 3.3 1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start 3.3 1.5) (end 3.3 -1.35) (layer B.SilkS) (width 0.15))
+            (fp_line (start 0 -1.35) (end 3.3 -1.35) (layer B.SilkS) (width 0.15))
+            
+            
+            (fp_line (start -1.95 -3.85) (end 1.95 -3.85) (layer Dwgs.User) (width 0.15))
+            (fp_line (start 1.95 -3.85) (end 1.95 -1.35) (layer Dwgs.User) (width 0.15))
+            (fp_line (start -1.95 -1.35) (end -1.95 -3.85) (layer Dwgs.User) (width 0.15))
+            
+            
+            (pad "" np_thru_hole circle (at 1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask))
+            (pad "" np_thru_hole circle (at -1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask))
+
+            
+            (pad 1 smd rect (at -2.25 2.075 -90) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask) (net 2 "BAT"))
+            (pad 2 smd rect (at 0.75 2.075 -90) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask) (net 1 "RAW"))
+            (pad 3 smd rect (at 2.25 2.075 -90) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask) )
+
+            
+            (pad "" smd rect (at 3.7 -1.1 -90) (size 0.9 0.9) (layers B.Cu B.Paste B.Mask))
+            (pad "" smd rect (at 3.7 1.1 -90) (size 0.9 0.9) (layers B.Cu B.Paste B.Mask))
+            (pad "" smd rect (at -3.7 1.1 -90) (size 0.9 0.9) (layers B.Cu B.Paste B.Mask))
+            (pad "" smd rect (at -3.7 -1.1 -90) (size 0.9 0.9) (layers B.Cu B.Paste B.Mask))
+
+            (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.wrl" (offset(xyz 0 0 0)) (scale(xyz 1 1 1)) (rotate(xyz 0 0 0)) ) 
+        )
+        
+        
+
+    
+        (module SMDPad (layer F.Cu) (tedit 5B24D78E)
+
+            (at 14.5 5.5 180)
+
+            
+            (fp_text reference "PAD5" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            
+            (pad 1 smd rect (at 0 0 180) (size 2 1) (layers B.Cu B.Paste B.Mask) (net 2 "BAT"))
+(fp_text user + (at -2 0 180) (layer B.SilkS) (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror)))
+            
+        )
+    
+        
+
+    
+        (module SMDPad (layer F.Cu) (tedit 5B24D78E)
+
+            (at 14.5 -5.5 180)
+
+            
+            (fp_text reference "PAD6" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            
+            (pad 1 smd rect (at 0 0 180) (size 2 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
+(fp_text user - (at -2 0 180) (layer B.SilkS) (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror)))
+            
+        )
+    
+        
+
+      (module VIA-0.6mm (layer F.Cu) (tedit 591DBFB0)
+      (at 13.5 -5.5 0)   
+      
+
+
+      
+      (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (zone_connect 2) (net 3 "GND"))
+      )
+    
+
+        
+        (module E73:SPDT_C128955 (layer B.Cu) (tstamp 5BF2CC3C)
+
+            (at -15.85 0 90)
+            (attr smd)
+            
+            (fp_text reference "T4" (at 0 0) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer B.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            (fp_line (start 1.95 -1.35) (end -1.95 -1.35) (layer B.SilkS) (width 0.15))
+            (fp_line (start 0 -1.35) (end -3.3 -1.35) (layer B.SilkS) (width 0.15))
+            (fp_line (start -3.3 -1.35) (end -3.3 1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start -3.3 1.5) (end 3.3 1.5) (layer B.SilkS) (width 0.15))
+            (fp_line (start 3.3 1.5) (end 3.3 -1.35) (layer B.SilkS) (width 0.15))
+            (fp_line (start 0 -1.35) (end 3.3 -1.35) (layer B.SilkS) (width 0.15))
+            
+            
+            (fp_line (start -1.95 -3.85) (end 1.95 -3.85) (layer Dwgs.User) (width 0.15))
+            (fp_line (start 1.95 -3.85) (end 1.95 -1.35) (layer Dwgs.User) (width 0.15))
+            (fp_line (start -1.95 -1.35) (end -1.95 -3.85) (layer Dwgs.User) (width 0.15))
+            
+            
+            (pad "" np_thru_hole circle (at 1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask))
+            (pad "" np_thru_hole circle (at -1.5 0) (size 1 1) (drill 0.9) (layers *.Cu *.Mask))
+
+            
+            (pad 1 smd rect (at -2.25 2.075 90) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask) (net 2 "BAT"))
+            (pad 2 smd rect (at 0.75 2.075 90) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask) (net 1 "RAW"))
+            (pad 3 smd rect (at 2.25 2.075 90) (size 0.9 1.25) (layers B.Cu B.Paste B.Mask) )
+
+            
+            (pad "" smd rect (at 3.7 -1.1 90) (size 0.9 0.9) (layers B.Cu B.Paste B.Mask))
+            (pad "" smd rect (at 3.7 1.1 90) (size 0.9 0.9) (layers B.Cu B.Paste B.Mask))
+            (pad "" smd rect (at -3.7 1.1 90) (size 0.9 0.9) (layers B.Cu B.Paste B.Mask))
+            (pad "" smd rect (at -3.7 -1.1 90) (size 0.9 0.9) (layers B.Cu B.Paste B.Mask))
+
+            (model "${KICAD6_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPDT_PCM12.wrl" (offset(xyz 0 0 0)) (scale(xyz 1 1 1)) (rotate(xyz 0 0 0)) ) 
+        )
+        
+        
+
+    
+        (module SMDPad (layer F.Cu) (tedit 5B24D78E)
+
+            (at -14.5 -5.5 360)
+
+            
+            (fp_text reference "PAD7" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            
+            (pad 1 smd rect (at 0 0 360) (size 2 1) (layers B.Cu B.Paste B.Mask) (net 2 "BAT"))
+(fp_text user + (at -2 0 360) (layer B.SilkS) (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror)))
+            
+        )
+    
+        
+
+    
+        (module SMDPad (layer F.Cu) (tedit 5B24D78E)
+
+            (at -14.5 5.5 360)
+
+            
+            (fp_text reference "PAD8" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1.27 1.27) (thickness 0.15))))
+            
+            
+            
+            (pad 1 smd rect (at 0 0 360) (size 2 1) (layers B.Cu B.Paste B.Mask) (net 3 "GND"))
+(fp_text user - (at -2 0 360) (layer B.SilkS) (effects (font (size 0.8 0.8) (thickness 0.15)) (justify mirror)))
+            
+        )
+    
+        
+
+      (module VIA-0.6mm (layer F.Cu) (tedit 591DBFB0)
+      (at -13.5 5.5 180)   
+      
+
+
+      
+      (pad 1 thru_hole circle (at 0 0) (size 0.6 0.6) (drill 0.3) (layers *.Cu) (zone_connect 2) (net 3 "GND"))
+      )
+    
+
+    (module "CONTROLLER" (layer "F.Cu") (tedit 5BDF551E)
+      (at 0 0 0)
+      (attr through_hole)
+      (fp_text value "CONTROLLER" (at 0 0) (layer "F.SilkS") hide
+        (effects (font (size 1.2 1.2) (thickness 0.2032)))
+        (tstamp 41c89c8e-0f97-4797-9a39-8582a63268a5)
+      )
+     
+      
+
+ 
+      
+      (fp_line (start -14.224 3.81) (end -19.304 3.81) (layer "Dwgs.User") (width 0.2) (tstamp 3fce9cf2-f532-47a5-a866-cfa1b81d5b6e))
+      (fp_line (start -14.224 -3.556) (end -14.224 3.81) (layer "Dwgs.User") (width 0.2) (tstamp 5527f1ed-3051-4d26-b710-5ff4d76a7a30))
+      (fp_line (start -19.304 3.81) (end -19.304 -3.556) (layer "Dwgs.User") (width 0.2) (tstamp b00d80fd-bfac-486b-88f3-26d0a8aeeebb))
+      (fp_line (start -19.304 -3.556) (end -14.224 -3.556) (layer "Dwgs.User") (width 0.2) (tstamp f8c61750-5c0e-4749-ae24-a771253cc5da))
+
+
+      (pad "1" thru_hole rect (at -13.97 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)  (net 1 "RAW"))
+      (pad "2" thru_hole circle (at -11.43 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)  (net 3 "GND"))
+      (pad "3" thru_hole circle (at -8.89 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask)  (net 4 "RST"))
+      (pad "4" thru_hole circle (at -6.35 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 5 "VCC"))
+      (pad "5" thru_hole circle (at -3.81 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 6 "F4"))
+      (pad "6" thru_hole circle (at -1.27 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 7 "F5"))
+      (pad "7" thru_hole circle (at 1.27 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 8 "F6"))
+      (pad "8" thru_hole circle (at 3.81 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 9 "F7"))
+      (pad "9" thru_hole circle (at 6.35 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 10 "B1"))
+      (pad "10" thru_hole circle (at 8.89 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 11 "B3"))
+      (pad "11" thru_hole circle (at 11.43 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 12 "B2"))
+      (pad "12" thru_hole circle (at 13.97 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 13 "B6"))
+      
+      (pad "13" thru_hole circle (at 13.97 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 23 "B5"))
+      (pad "14" thru_hole circle (at 11.43 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 22 "B4"))
+      (pad "15" thru_hole circle (at 8.89 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 21 "E6"))
+
+      
+
+      (pad "16" thru_hole circle (at 6.35 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 20 "D7"))
+      (pad "17" thru_hole circle (at 3.81 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 19 "C6"))
+      (pad "18" thru_hole circle (at 1.27 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 18 "D4"))
+      (pad "19" thru_hole circle (at -1.27 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 17 "D0"))
+      (pad "20" thru_hole circle (at -3.81 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 16 "D1"))
+      (pad "21" thru_hole circle (at -6.35 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 3 "GND"))
+      (pad "22" thru_hole circle (at -8.89 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 3 "GND"))
+      (pad "23" thru_hole circle (at -11.43 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 15 "D2"))
+      (pad "24" thru_hole circle (at -13.97 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask) (net 14 "D3"))
+
+      
+
+    )
+
+
+            (gr_text "R" (at -16 7.75 90) (layer F.SilkS)
+                (effects (font (size 1 1) (thickness 0.15)) )
+            )
+        
+
+            (gr_text "R" (at -16 7.75 90) (layer B.SilkS)
+                (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
+            )
+        
+
+            (gr_text "b!p" (at 16.25 7.7 90) (layer F.Cu)
+                (effects (font (size 0.75 0.75) (thickness 0.05)) )
+            )
+        
+
+            (gr_text "b!p" (at 16.25 7.7 90) (layer B.Cu)
+                (effects (font (size 0.75 0.75) (thickness 0.05)) (justify mirror))
+            )
+        
+
+            (gr_text "0.2" (at 16.25 -7.7 90) (layer F.Cu)
+                (effects (font (size 0.75 0.75) (thickness 0.05)) )
+            )
+        
+
+            (gr_text "0.2" (at 16.25 -7.7 90) (layer B.Cu)
+                (effects (font (size 0.75 0.75) (thickness 0.05)) (justify mirror))
+            )
+        
+            (gr_line (start -16.5 9) (end 16.5 9) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 17.5 8) (end 17.5 -8) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start 16.5 -9) (end -16.5 -9) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_line (start -17.5 -8) (end -17.5 8) (angle 90) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 16.5 8) (end 16.5 9) (angle -90) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start 16.5 -8) (end 17.5 -8) (angle -90) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start -16.5 -8) (end -16.5 -9) (angle -90) (layer Edge.Cuts) (width 0.15))
+(gr_arc (start -16.5 8) (end -17.5 8) (angle -90) (layer Edge.Cuts) (width 0.15))
+            
+)
+
+        
