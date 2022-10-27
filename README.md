@@ -1,4 +1,4 @@
-# BattPack 0.2
+# batt!pack 0.2
 
 ![render](images/re-render.png) 
 
