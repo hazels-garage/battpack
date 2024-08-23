@@ -6,12 +6,15 @@
   <img src="https://img.shields.io/discord/989552667330228374?color=%237289da&label=%20&logo=discord&logoColor=%23fff&style=flat-square" />
 </a>
 
-# batt!pack 0.2
 
+# batt!pack
 
-![render](images/re-render.png) 
 
 A 'backpack' for the nice!nano to make wiring up a battery cleaner on boards without native support
 
 ### Bill of Materials
 - [1x MSK-12C02](https://www.aliexpress.us/item/2251832670227688.html)
+
+
+#### Notes
+I lost the source files for the most recent version, but do have the gerbers.  Make sure you're downloading `GERBER-battpack-2.zip` for the latest version.
